@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #5b93dd 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+header a:hover {
+    color: #5b93dd;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header .logo {
+    float: left;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    padding: 20px;
+    background: #fff;
+}
+
+section {
+    padding: 20px 0;
+}
+
+section#home {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 80px 0;
+}
+
+section#home h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+section#home p {
+    font-size: 20px;
+}
+
+section#about, section#services, section#reviews, section#contact {
+    background: #fff;
+    color: #333;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+section#reviews .review {
+    margin-bottom: 20px;
+}
+
+.review-author {
+    font-weight: bold;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}

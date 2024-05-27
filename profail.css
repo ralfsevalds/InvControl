@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 40px;
+    position: relative; /* Added for positioning the back button */
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile .back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #333;
+    position: absolute; /* Absolute positioning */
+    left: 20px; /* Distance from the left side */
+    top: 20px; /* Distance from the top side */
+}
+
+.profile .profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile .profile-details h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.profile .profile-details p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.profile .profile-details button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px; /* Makes the button oval */
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.profile .profile-details button:hover {
+    background-color: white;
+    color: black;
+}
+
+.profile-edit {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.profile-edit form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-edit form label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.profile-edit form input[type="text"],
+.profile-edit form input[type="file"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.profile-edit form button[type="submit"],
+.profile-edit form button[type="button"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px; /* Makes the button oval */
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.profile-edit form button[type="button"] {
+    background-color: gray;
+}
+
+.profile-edit form button[type="submit"]:hover,
+.profile-edit form button[type="button"]:hover {
+    background-color: white;
+    color: black;
+}
